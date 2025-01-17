@@ -8,7 +8,7 @@ namespace TP_NEW.Controllers
     public class UserDetailsController : ControllerBase
     {
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult GetHiALL()
         {
             return Ok("hi how are you");
         }
